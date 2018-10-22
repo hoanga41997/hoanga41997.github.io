@@ -1,0 +1,301 @@
+.header {
+    background: #221d20;
+}
+
+.header .navbar {
+    height: 115px;
+    position: relative;
+}
+
+.header .navbar .form-inline {
+    display: block;
+    margin-left: 1200px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+}
+
+.header .navbar .form-inline .btn {
+    color: #ffff;
+    border: 1px solid #ffff;
+    background: transparent;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.1rem .5rem;
+}
+
+.header .navbar .form-inline .btn:hover {
+    color: #221d20;
+    border: 1px solid #ffff;
+    background: #ffff;
+}
+
+.header .navbar .form-control {
+    width: 150px;
+    border: #ffff;
+    height: 1.7rem;
+}
+
+.breadcrumb {
+    background: linear-gradient( rgba(231, 231, 231, 0.85), rgba(231, 231, 231, 0.85));
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "";
+}
+
+.breadcrumb-item a {
+    color: #6c757d;
+    font-size: 25px;
+    padding: 0 1rem;
+}
+
+.main .homepage {
+    height: 100vh;
+    max-width: 100%;
+    background: linear-gradient( rgba(167, 167, 167, 0.7), rgba(167, 167, 167, 0.7)), url("https://www.manutd.com/AssetPicker/images/0/0/5/222/384617/match_19981021_brondby239_cl_00621539188984982.jpg") center center no-repeat;
+}
+
+.homepage .container .banner .colbanner h1 {
+    color: black;
+    padding-top: 190px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.homepage .container .banner .colbanner p {
+    font-size: 25px;
+}
+
+.homepage .container .banner ul {
+    list-style-type: none;
+}
+
+.homepage .container .banner .readmore {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+.homepage .container .banner .readmore:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 30px 0px rgba(36, 36, 36, 0.7);
+}
+
+.news {
+    padding: 1rem;
+    background: rgb(248, 248, 248);
+}
+
+.news .tittletintuc h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.news .rowtintuc .card .card {
+    overflow: hidden;
+    position: relative;
+}
+
+.news .rowtintuc .card .card-body {
+    background: linear-gradient( rgba(167, 167, 167, 0.2), rgba(167, 167, 167, 0.2));
+    height: 360px;
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.news .rowtintuc .card .card-body:before {
+    content: '';
+    background: red;
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 90px;
+    left: 20px;
+    transition: .5s ease-out;
+}
+
+.news .rowtintuc .card .card-body:hover:before {
+    width: 100px;
+    height: 2px;
+    transform: translateX(0);
+}
+
+.news .rowtintuc .card .card-body h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.news .rowtintuc .card .card-body a {
+    border: 1px solid;
+    background: linear-gradient( rgba(34, 33, 33, 0.5), rgba(34, 33, 33, 0.5));
+}
+
+.fixtures {
+    background: linear-gradient( rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url("https://cdn.strettynews.com/wp-content/uploads/2018/04/mufc.jpg") center center no-repeat;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fixtures .ucl {
+    padding-top: 4rem;
+}
+
+.fixtures .time {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 4rem;
+}
+
+.fixtures .team {
+    padding-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-7%);
+}
+
+.fixtures .team #logomu {
+    height: 220px;
+    width: 220px;
+    padding: 0 1rem;
+}
+
+.fixtures .team #mu {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fixtures .team #juve {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fixtures .team #logojuve img {
+    height: 200px;
+    width: 200px;
+    color: white;
+    padding: 0 1rem;
+}
+
+.fixtures .team #vs {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.fixtures .tickets {
+    padding: 5rem
+}
+
+.fixtures .tickets .buyticket {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    background: white;
+}
+
+.sponsors {
+    background: rgb(248, 248, 248);
+}
+
+.sponsors .taitro .nhataitro h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.hangtaitro {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    transform: translateX(2%);
+}
+
+.hangtaitro .nhataitro1 {
+    padding: 0 2rem;
+}
+
+.hangtaitro .nhataitro2 {
+    padding: 0 2rem;
+}
+
+.hangtaitro .nhataitro3 {
+    padding: 0 2rem;
+}
+
+.hangtaitro .nhataitro4 {
+    padding: 0 2rem;
+}
+
+.footer {
+    background: #221d20;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .dong .hang1 p {
+    color: aliceblue;
+    padding: 2rem 0;
+}
+
+.footer .dong .hang2 {
+    color: white;
+}
+
+.footer .dong .hang2 ul {
+    list-style-type: none;
+}
+
+.footer .dong .hang2 ul li {
+    height: 100px;
+}
+
+.footer .dong .hang2 ul li a {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+    background-position: -100px -294px;
+    background: url("https://s3.amazonaws.com/eclincher.wp.upload/wp-content/uploads/2018/02/02121139/youtube-logo-icon-transparent32.png");
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.footer .dong .hang3 p {
+    color: aliceblue;
+    padding: 2rem 0;
+}
